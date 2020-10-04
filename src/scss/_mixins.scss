@@ -1,0 +1,6 @@
+
+// Typography
+@mixin fontStyle($fontSize, $fontWeight) {
+  font-size: $fontSize * 1px;
+  font-weight: $fontWeight;
+}

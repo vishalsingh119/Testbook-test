@@ -1,0 +1,41 @@
+
+// Import Custom Variables (Overrides Default Bootstrap Variables)
+@import "variables.scss";
+@import "buttons.scss";
+@import "mixins.scss";
+
+// Import Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+// Common css
+html,body{
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+}
+
+.contain-wrapper{
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+//media query
+@media (min-width: 576px){
+  .contain-wrapper{
+    max-width: 540px;
+  }
+}
+@media (min-width:768px){
+  .contain-wrapper{
+    max-width: 720px;
+  }
+}
+@media (min-width:992px){
+  .contain-wrapper{
+    max-width: 960px;
+  }
+}
+@media (min-width:1200px){
+  .contain-wrapper{
+    max-width: 1140px;
+  }
+}
